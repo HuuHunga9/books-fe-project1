@@ -5,7 +5,9 @@ $(document).ready(function() {
     })
 })
 
-$(window).on('scroll', function() {
+$(window).on('scroll load', function() {
+    $('.navbar').removeClass('nav-toggle');
+    $('.menu').removeClass('fa-times');
     if ($(window).scrollTop() > 100) {
         $('.scroll-top').show();
     } else {
