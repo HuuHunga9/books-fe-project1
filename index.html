@@ -1,427 +1,553 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Books</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer"
-    />
-    <!-- slider -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css" integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A==" crossorigin="anonymous" referrerpolicy="no-referrer"
-    />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css" integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw==" crossorigin="anonymous" referrerpolicy="no-referrer"
-    />
-    <!-- slider end -->
+    <title>Brief Website Edu</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- slick slider -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css" integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css" integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="icon" href="images/icon.png" type="image/x-icon">
     <link rel="stylesheet" href="css/grid.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
-
 <body>
+    <!-- header start -->
     <header>
-        <a href="#" class="logo"><span>book</span>s</a>
+        <a href="" class="logo"><img src="images/logo.png" alt="Logo"></a>
         <div id="menu" class="fas fa-bars"></div>
-        <nav class="navbar">
-            <ul>
-                <li>
-                    <a href="#home" class="active">home</a>
+        <div class="modol">
+            <ul class="header--navbar">
+                <li class="header--navbar__li">
+                    <a href="" class="header--navbar__link">Trang chủ</a>
                 </li>
-                <li>
-                    <a href="#gallery">gallery</a>
+                <li class="header--navbar__li">
+                    <a href="" class="header--navbar__link">Các khoá học</a>
                 </li>
-                <li>
-                    <a href="#about">about</a>
+                <li class="header--navbar__li">
+                    <a href="" class="header--navbar__link">Đội ngũ giảng viên</a>
                 </li>
-                <li>
-                    <a href="#movies">stories</a>
+                <li class="header--navbar__li">
+                    <a href="" class="header--navbar__link">Đăng ký</a>
                 </li>
-                <li>
-                    <a href="#products">products</a>
+                <li class="header--navbar__li">
+                    <a href="" class="header--navbar__link">Liên hệ</a>
                 </li>
             </ul>
-        </nav>
+        </div>
     </header>
+    <!-- header End -->
 
-    <section class="home" id="home">
-        <div class="content">
-            <h3>amazing marvel movies</h3>
-            <h1>Welcom marvel fans</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa commodi ad mollitia. Inventore magnam, saepe necessitatibus explicabo fugiat, reprehenderit perspiciatis atque eum corporis vitae incidunt enim dicta, dolor dignissimos repudiandae.
-            </p>
-            <a href="#" class="btn">get started</a>
-        </div>
+    <!-- Sliders start-->
+    <section class="sliders">
+        <div class="sliders--container">
+            <div class="sliders--container__content">
 
-        <div class="image">
-            <img src="images/anh01.jpg" alt="Ảnh sách">
-        </div>
-    </section>
-
-    <section class="gallery grid wide" id="gallery">
-        <h1 class="heading">
-            <span>books</span> gallery
-        </h1>
-
-        <div class="box-container row">
-            <div class="col l-4 m-6 c-12">
-                <div class="box">
-                    <img src="images/gall01.jpg" alt="Ảnh Sách">
-                    <div class="info">
-                        <h3>captain america</h3>
-                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                        </p>
-                        <a href="#" class="btn">Learn More</a>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col l-4 m-6 c-12">
-                <div class="box">
-                    <img src="images/gall02.jpg" alt="Ảnh Sách">
-                    <div class="info">
-                        <h3>captain america</h3>
-                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                        </p>
-                        <a href="#" class="btn">Learn More</a>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col l-4 m-6 c-12">
-                <div class="box">
-                    <img src="images/gall03.jpg" alt="Ảnh Sách">
-                    <div class="info">
-                        <h3>captain america</h3>
-                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                        </p>
-                        <a href="#" class="btn">Learn More</a>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col l-4 m-6 c-12">
-                <div class="box">
-                    <img src="images/gall01.jpg" alt="Ảnh Sách">
-                    <div class="info">
-                        <h3>captain america</h3>
-                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                        </p>
-                        <a href="#" class="btn">Learn More</a>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col l-4 m-6 c-12">
-                <div class="box">
-                    <img src="images/gall02.jpg" alt="Ảnh Sách">
-                    <div class="info">
-                        <h3>captain america</h3>
-                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                        </p>
-                        <a href="#" class="btn">Learn More</a>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col l-4 m-6 c-12">
-                <div class="box">
-                    <img src="images/gall03.jpg" alt="Ảnh Sách">
-                    <div class="info">
-                        <h3>captain america</h3>
-                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                        </p>
-                        <a href="#" class="btn">Learn More</a>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col l-4 m-6 c-12">
-                <div class="box">
-                    <img src="images/gall01.jpg" alt="Ảnh Sách">
-                    <div class="info">
-                        <h3>captain america</h3>
-                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                        </p>
-                        <a href="#" class="btn">Learn More</a>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col l-4 m-6 c-12">
-                <div class="box">
-                    <img src="images/gall02.jpg" alt="Ảnh Sách">
-                    <div class="info">
-                        <h3>captain america</h3>
-                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                        </p>
-                        <a href="#" class="btn">Learn More</a>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col l-4 m-6 c-12">
-                <div class="box">
-                    <img src="images/gall03.jpg" alt="Ảnh Sách">
-                    <div class="info">
-                        <h3>captain america</h3>
-                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                        </p>
-                        <a href="#" class="btn">Learn More</a>
-                    </div>
-                </div>
-            </div>
-
-
-
-        </div>
-
-
-
-    </section>
-
-    <section class="about grid wide" id="about">
-        <h1 class="heading"><span>about</span> books</h1>
-
-        <div class="container row">
-            <div class="col l-6 m-12 c-12">
-                <div class="image">
-                    <img src="images/bghome.jpg" alt="">
-                </div>
-            </div>
-            <div class="col l-6 m-12 c-12">
-                <div class="content">
-                    <h3>great books</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum quod quidem adipisci facere nobis natus fuga praesentium eius eum totam optio assumenda deserunt ea nostrum, fugit sequi hic explicabo maiores.</p>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reprehenderit at nulla, provident doloribus dolorem tempore maiores maxime unde atque quaerat deserunt nihil. Accusamus reiciendis soluta placeat vero enim eos quae.</p>
-                    <a href="#" class="btn">Learn More</a>
-                </div>
-            </div>
-        </div>
-
-    </section>
-
-    <section class="stories grid wide" id="movies">
-        <h1 class="heading"><span>Horror</span> stories</h1>
-
-        <div class="row">
-            <div class="col l-4 m-6 c-12">
-                <div class="box">
-                    <img src="images/gall01.jpg" alt="">
-                    <div class="info">
-                        <h3>marvel avengers 2021</h3>
-                        <span>action, sci-fi, thriller, comedy</span>
-                        <div class="stars">
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
+                <div class="sliders--content__box">
+                    <div class="sliders--box__item">
+                        <img src="https://benhvienthammy.com.vn/images/slideshow/revslider/slider-2.jpg" alt="Ảnh Slider">
+                        <div class="slider--box__text">
+                            <p class="slider--text__para">
+                                Cung cấp những khoá học chất lượng tốt nhất tại Hà Nội
+                            </p>
                         </div>
-                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                        </p>
-                        <a href="#" class="btn">watch online</a>
+                   
                     </div>
                 </div>
-            </div>
 
-            <div class="col l-4 m-6 c-12">
-                <div class="box">
-                    <img src="images/gall02.jpg" alt="">
-                    <div class="info">
-                        <h3>marvel avengers 2021</h3>
-                        <span>action, sci-fi, thriller, comedy</span>
-                        <div class="stars">
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                        </div>
-                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                        </p>
-                        <a href="#" class="btn">watch online</a>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col l-4 m-6 c-12">
-                <div class="box">
-                    <img src="images/gall03.jpg" alt="">
-                    <div class="info">
-                        <h3>marvel avengers 2021</h3>
-                        <span>action, sci-fi, thriller, comedy</span>
-                        <div class="stars">
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                        </div>
-                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                        </p>
-                        <a href="#" class="btn">watch online</a>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col l-4 m-6 c-12">
-                <div class="box">
-                    <img src="images/gall01.jpg" alt="">
-                    <div class="info">
-                        <h3>marvel avengers 2021</h3>
-                        <span>action, sci-fi, thriller, comedy</span>
-                        <div class="stars">
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                        </div>
-                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                        </p>
-                        <a href="#" class="btn">watch online</a>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col l-4 m-6 c-12">
-                <div class="box">
-                    <img src="images/gall02.jpg" alt="">
-                    <div class="info">
-                        <h3>marvel avengers 2021</h3>
-                        <span>action, sci-fi, thriller, comedy</span>
-                        <div class="stars">
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                        </div>
-                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                        </p>
-                        <a href="#" class="btn">watch online</a>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col l-4 m-6 c-12">
-                <div class="box">
-                    <img src="images/gall03.jpg" alt="">
-                    <div class="info">
-                        <h3>marvel avengers 2021</h3>
-                        <span>action, sci-fi, thriller, comedy</span>
-                        <div class="stars">
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                        </div>
-                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                        </p>
-                        <a href="#" class="btn">watch online</a>
-                    </div>
-                </div>
-            </div>
-
-
-        </div>
-    </section>
-
-    <section class="products grid wide" id="products">
-        <h1 class="heading"><span>books</span> products</h1>
-
-        <div class="row js-slider">
-            <div class="col l-12 m-12 c-12">
-                <div class="box">
-                    <h3>product 1</h3>
-                    <img src="images/gall01.jpg" alt="">
-                    <div class="price">$30.00</div>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                    </p>
-                    <a href="#" class="btn">Add to cart</a>
-                </div>
-            </div>
-
-            <div class="col l-12 m-12 c-12">
-                <div class="box">
-                    <h3>product 1</h3>
-                    <img src="images/gall02.jpg" alt="">
-                    <div class="price">$30.00</div>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                    </p>
-                    <a href="#" class="btn">Add to cart</a>
-                </div>
-            </div>
-
-            <div class="col l-12 m-12 c-12">
-                <div class="box">
-                    <h3>product 1</h3>
-                    <img src="images/gall03.jpg" alt="">
-                    <div class="price">$30.00</div>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                    </p>
-                    <a href="#" class="btn">Add to cart</a>
-                </div>
-            </div>
-
-            <div class="col l-12 m-12 c-12">
-                <div class="box">
-                    <h3>product 1</h3>
-                    <img src="images/gall01.jpg" alt="">
-                    <div class="price">$30.00</div>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                    </p>
-                    <a href="#" class="btn">Add to cart</a>
-                </div>
-            </div>
-
-            <div class="col l-12 m-12 c-12">
-                <div class="box">
-                    <h3>product 1</h3>
-                    <img src="images/gall02.jpg" alt="">
-                    <div class="price">$30.00</div>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                    </p>
-                    <a href="#" class="btn">Add to cart</a>
-                </div>
-            </div>
-
-            <div class="col l-12 m-12 c-12">
-                <div class="box">
-                    <h3>product 1</h3>
-                    <img src="images/gall03.jpg" alt="">
-                    <div class="price">$30.00</div>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                    </p>
-                    <a href="#" class="btn">Add to cart</a>
-                </div>
             </div>
         </div>
     </section>
+    <!-- Sliders end -->
 
-    <div class="footer">
-        <div class="share">
-            <a href="#"><i class="fab fa-youtube"></i> youtobe</a>
-            <a href="#"><i class="fab fa-facebook-f"></i> facebook</a>
-            <a href="#"><i class="fab fa-twitter"></i> twitter</a>
-            <a href="#"><i class="fab fa-instagram"></i> instagram</a>
-            <a href="#"><i class="fab fa-linkedin"></i> linkedin</a>
+    <!-- Giá trị mang lại start -->
+    <section class="values back">
+        <div class="values--container grid wide">
+            <h1 class="heading">Giá trị DTH Edu mang lại</h1>
+            <div class="row">
+                <div class="col l-4 m-6 c-12">
+                    <div class="values--item">
+                        <p class="values--item__img">
+                            <img src="https://detec.vn/wp-content/uploads/2020/12/ic-hearts.png" alt="Ảnh con người">
+                        </p>
+                        <h2 class="values--item__h2">Con người</h2>
+                        <p class="values--item__p">Lấy Học viên là trung tâm. Đội ngũ Chuyên gia và Giáo viên với nhiều kinh nghiệm giảng dạy, hết mình vì Học viên, luôn mang tới cho Học viên những giá trị tốt nhất.</p>
+                    </div>
+                </div>
+
+                <div class="col l-4 m-6 c-12">
+                    <div class="values--item">
+                        <p class="values--item__img">
+                            <img src="https://detec.vn/wp-content/uploads/2020/12/ic-microscope.png" alt="Ảnh Môi trường đào tạo">
+                        </p>
+                        <h2 class="values--item__h2">Môi trường đào tạo</h2>
+                        <p class="values--item__p">Chuyên nghiệp, thực hành trong điều kiện tương tự môi trường thực tế giúp học viên sẵn sàng tâm lý và trang bị thêm nhiều kinh nghiệm làm việc.</p>
+                    </div>
+                </div>
+
+
+                <div class="col l-4 m-6 c-12">
+                    <div class="values--item">
+                        <p class="values--item__img">
+                            <img src="https://detec.vn/wp-content/uploads/2020/12/ic-diamond.png" alt="Ảnh Chất lượng">
+                        </p>
+                        <h2 class="values--item__h2">Chất lượng</h2>
+                        <p class="values--item__p">Với Giáo trình tự biên soạn dựa trên những yêu cầu thực tế của công việc, đặc biệt là đội ngũ Chuyên gia, Tư vấn đào tạo, Giáo viên tuyệt vời, Trung tâm cam kết chất lượng sau khóa học. Chất lượng giảng dạy là ưu tiên của chúng tôi.</p>
+                    </div>
+                </div>
+
+                <div class="col l-4 m-6 c-12">
+                    <div class="values--item">
+                        <p class="values--item__img">
+                            <img src="https://detec.vn/wp-content/uploads/2020/12/ic-hand-shake.png" alt="Ảnh Sự gắn kết">
+                        </p>
+                        <h2 class="values--item__h2">Sự gắn kết</h2>
+                        <p class="values--item__p">Với môi trường học tập của mình, Trung tâm tạo sự gắn kết giữa Học viên với Học viên. Đặc biệt, với môi trường học tập là những người đã, đang đi làm, bạn sẽ được mở rộng mối quan hệ trong công việc, có nhiều cơ hội hợp tác trong tương lai.</p>
+                    </div>
+                </div>
+
+                <div class="col l-4 m-6 c-12">
+                    <div class="values--item">
+                        <p class="values--item__img">
+                            <img src="https://detec.vn/wp-content/uploads/2020/12/ic-tooth.png" alt="Ảnh Luôn luôn đổi mới">
+                        </p>
+                        <h2 class="values--item__h2">Luôn luôn đổi mới</h2>
+                        <p class="values--item__p">Đây là mô hình đào tạo thực hành nghề phục hình răng trong lòng một Công ty sản xuất răng uy tín, chuyên nghiệp và hiện đại bậc nhất của Việt Nam. Chính vì vậy, trong suốt quá trình hoạt động, chúng tôi sẽ không ngừng đổi mới, nâng cao chất lượng chương trình đào tạo của mình.</p>
+                    </div>
+                </div>
+
+                <div class="col l-4 m-6 c-12">
+                    <div class="values--item">
+                        <p class="values--item__img">
+                            <img src="https://detec.vn/wp-content/uploads/2020/12/ic-heart.png" alt="Ảnh Sự tín nhiệm">
+                        </p>
+                        <h2 class="values--item__h2">Sự tín nhiệm</h2>
+                        <p class="values--item__p">Sự tín nhiệm của Học viên là niềm tin và động lực phát triển của chúng tôi. Trong suốt khóa học, Trung tâm luôn luôn khảo sát, lấy ý kiến của Học viên để không ngừng nâng cao chất lượng giảng dạy. Cuối khóa học, Học viên sẽ để lại những cảm nhận của mình sau khóa học, là thước đo đánh giá, tham khảo cho các Học viên mới.</p>
+                    </div>
+                </div>
+                
+            </div>
         </div>
-    </div>
+    </section>
+    <!-- Giá trị mang lại end -->
 
-    <a href="#home" class="scroll-top">
-        <img src="images/top.jpg" alt="">
-    </a>
+    <!-- Các khoá học start-->
+    <section class="courses">
+        <div class="courses--container grid wide">
+            <h1 class="heading">Các khóa học</h1>
+            <div class="courses--row row">
+                <div class="courses--col col l-4 m-6 c-6">
+                    <div class="courses--item">
+                        <a href="" class="courses--item__link">
+                            <img src="https://vietproducer.com/wp-content/uploads/2020/05/tvc-nha-khoa.jpg" alt="">
+                        
+                            <div class="courses--item__phu">
+                                <p class="courses--phu--p courses--phu--p1">Nha khoa</p>
+                                <p class="courses--phu--p courses--phu--p2">Công việc, có nhiều cơ hội hợp tác trong tương lai.</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="courses--col col l-4 m-6 c-6">
+                    <div class="courses--item">
+                        <a href="" class="courses--item__link">
+                            <img src="https://marketingnuu.com/wp-content/uploads/2018/09/phong-kham-nha-khoa-marketing.jpg" alt="">
+                        
+                            <div class="courses--item__phu">
+                                <p class="courses--phu--p courses--phu--p1">Nha khoa</p>
+                                <p class="courses--phu--p courses--phu--p2">Công việc, có nhiều cơ hội hợp tác trong tương lai.</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="courses--col col l-4 m-6 c-6">
+                    <div class="courses--item">
+                        <a href="" class="courses--item__link">
+                            <img src="https://vietproducer.com/wp-content/uploads/2020/05/tvc-nha-khoa.jpg" alt="">
+                        
+                            <div class="courses--item__phu">
+                                <p class="courses--phu--p courses--phu--p1">Nha khoa</p>
+                                <p class="courses--phu--p courses--phu--p2">Công việc, có nhiều cơ hội hợp tác trong tương lai.</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="courses--col col l-4 m-6 c-6">
+                    <div class="courses--item">
+                        <a href="" class="courses--item__link">
+                            <img src="https://marketingnuu.com/wp-content/uploads/2018/09/phong-kham-nha-khoa-marketing.jpg" alt="">
+                        
+                            <div class="courses--item__phu">
+                                <p class="courses--phu--p courses--phu--p1">Nha khoa</p>
+                                <p class="courses--phu--p courses--phu--p2">Công việc, có nhiều cơ hội hợp tác trong tương lai.</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="courses--col col l-4 m-6 c-6">
+                    <div class="courses--item">
+                        <a href="" class="courses--item__link">
+                            <img src="https://vietproducer.com/wp-content/uploads/2020/05/tvc-nha-khoa.jpg" alt="">
+                        
+                            <div class="courses--item__phu">
+                                <p class="courses--phu--p courses--phu--p1">Nha khoa</p>
+                                <p class="courses--phu--p courses--phu--p2">Công việc, có nhiều cơ hội hợp tác trong tương lai.</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="courses--col col l-4 m-6 c-6">
+                    <div class="courses--item">
+                        <a href="" class="courses--item__link">
+                            <img src="https://marketingnuu.com/wp-content/uploads/2018/09/phong-kham-nha-khoa-marketing.jpg" alt="">
+                        
+                            <div class="courses--item__phu">
+                                <p class="courses--phu--p courses--phu--p1">Nha khoa</p>
+                                <p class="courses--phu--p courses--phu--p2">Công việc, có nhiều cơ hội hợp tác trong tương lai.</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="staffs-most">
+                <a href="" class="btn">Xem thêm<i class="fa-solid fa-chevron-right"></i></a>
+            </div>
+        </div>
+    </section>
+    <!-- Các khoá học end -->
+
+    <!-- Đội ngũ giảng viên start -->
+    <section class="staffs back">
+        <div class="staffs--container grid wide">
+            <h1 class="heading">Đội ngũ giảng viên</h1>
+            <div class="row">
+                <div class="col l-3 m-6 c-12">
+                    <div class="staffs--item">
+                        <a href="" class="staffs--item__link">
+                            <p class="staffs--link__img"><img src="https://taimuihongsg.com/wp-content/uploads/2018/05/Kim-Bun-ThuongE-01.jpg" alt="Ảnh nha khoa"></p>
+                            <div class="staffs--link__phu">
+                                <h3 class="staffs--phu__h3">Nguyễn văn A</h3>
+                                <p class="staffs--phu__p">Chính khoa</p>
+                                <button class="btn">Xem chi tiết</button>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col l-3 m-6 c-12">
+                    <div class="staffs--item">
+                        <a href="" class="staffs--item__link">
+                            <p class="staffs--link__img"><img src="https://taimuihongsg.com/wp-content/uploads/2018/05/Kim-Bun-ThuongE-01.jpg" alt="Ảnh nha khoa"></p>
+                            <div class="staffs--link__phu">
+                                <h3 class="staffs--phu__h3">Nguyễn văn A</h3>
+                                <p class="staffs--phu__p">Chính khoa</p>
+                                <button class="btn">Xem chi tiết</button>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col l-3 m-6 c-12">
+                    <div class="staffs--item">
+                        <a href="" class="staffs--item__link">
+                            <p class="staffs--link__img"><img src="https://taimuihongsg.com/wp-content/uploads/2018/05/Kim-Bun-ThuongE-01.jpg" alt="Ảnh nha khoa"></p>
+                            <div class="staffs--link__phu">
+                                <h3 class="staffs--phu__h3">Nguyễn văn A</h3>
+                                <p class="staffs--phu__p">Chính khoa</p>
+                                <button class="btn">Xem chi tiết</button>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col l-3 m-6 c-12">
+                    <div class="staffs--item">
+                        <a href="" class="staffs--item__link">
+                            <p class="staffs--link__img"><img src="https://taimuihongsg.com/wp-content/uploads/2018/05/Kim-Bun-ThuongE-01.jpg" alt="Ảnh nha khoa"></p>
+                            <div class="staffs--link__phu">
+                                <h3 class="staffs--phu__h3">Nguyễn văn A</h3>
+                                <p class="staffs--phu__p">Chính khoa</p>
+                                <button class="btn">Xem chi tiết</button>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col l-3 m-6 c-12">
+                    <div class="staffs--item">
+                        <a href="" class="staffs--item__link">
+                            <p class="staffs--link__img"><img src="https://taimuihongsg.com/wp-content/uploads/2018/05/Kim-Bun-ThuongE-01.jpg" alt="Ảnh nha khoa"></p>
+                            <div class="staffs--link__phu">
+                                <h3 class="staffs--phu__h3">Nguyễn văn A</h3>
+                                <p class="staffs--phu__p">Chính khoa</p>
+                                <button class="btn">Xem chi tiết</button>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col l-3 m-6 c-12">
+                    <div class="staffs--item">
+                        <a href="" class="staffs--item__link">
+                            <p class="staffs--link__img"><img src="https://taimuihongsg.com/wp-content/uploads/2018/05/Kim-Bun-ThuongE-01.jpg" alt="Ảnh nha khoa"></p>
+                            <div class="staffs--link__phu">
+                                <h3 class="staffs--phu__h3">Nguyễn văn A</h3>
+                                <p class="staffs--phu__p">Chính khoa</p>
+                                <button class="btn">Xem chi tiết</button>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col l-3 m-6 c-12">
+                    <div class="staffs--item">
+                        <a href="" class="staffs--item__link">
+                            <p class="staffs--link__img"><img src="https://taimuihongsg.com/wp-content/uploads/2018/05/Kim-Bun-ThuongE-01.jpg" alt="Ảnh nha khoa"></p>
+                            <div class="staffs--link__phu">
+                                <h3 class="staffs--phu__h3">Nguyễn văn A</h3>
+                                <p class="staffs--phu__p">Chính khoa</p>
+                                <button class="btn">Xem chi tiết</button>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col l-3 m-6 c-12">
+                    <div class="staffs--item">
+                        <a href="" class="staffs--item__link">
+                            <p class="staffs--link__img"><img src="https://taimuihongsg.com/wp-content/uploads/2018/05/Kim-Bun-ThuongE-01.jpg" alt="Ảnh nha khoa"></p>
+                            <div class="staffs--link__phu">
+                                <h3 class="staffs--phu__h3">Nguyễn văn A</h3>
+                                <p class="staffs--phu__p">Chính khoa</p>
+                                <button class="btn">Xem chi tiết</button>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="staffs-most">
+                <a href="" class="btn">Xem thêm<i class="fa-solid fa-chevron-right"></i></a>
+            </div>
+            
+        </div>
+    </section>
+    <!-- Đội ngũ giảng viên end -->
+
+    <!-- Đánh giá của học viên start -->
+    <section class="evaluate">
+        <div class="evaluate--container grid wide">
+            <h1 class="heading">Đánh giá của học viên</h1>
+            <div class="row">
+                <div class="col l-9 m-6 c-6"></div>
+                <div class="col l-3 m-6 c-6">
+                    <a href="" class="evaluate--link">Xem tất cả<i class="fa-solid fa-chevron-right"></i></a>
+                </div>
+            </div>
+            <div class="evaluate-row row">
+                <div class="evaluate--col col l-12">
+                    <div class="evaluate--item row">
+                        <div class="col l-4 m-4 c-4">
+                            <p class="evaluate--item__img">
+                            <img src="https://hthaostudio.com/wp-content/uploads/2020/07/Thanh-dat-xanh-2.jpg" alt="Ảnh học viên"></p>
+                        </div>
+                        <div class="col l-8 m-8 c-8">
+                            <h4 class="evaluate--item__h4">Nguyễn Văn A</h4>
+                            <p class="evaluate--item__time"><i class="fa fa-calendar"></i>13/04/2021</p>
+                            <p class="evaluate--item__p">
+                                Đây là mô hình đào tạo thực hành nghề phục hình răng trong lòng một Công ty sản xuất răng uy tín, chuyên nghiệpĐây là mô hình đào tạo thực hành nghề phục hình răng trong lòng một Công ty sản xuất răng uy tín, chuyên nghiệpĐây là mô hình đào tạo thực hành nghề phục hình răng trong lòng một Công ty sản xuất răng uy tín, chuyên nghiệp 
+                            </p>  
+                        </div>
+                    </div>
+                </div>
+
+                <div class="evaluate--col col l-12">
+                    <div class=" evaluate--item row">
+                        <div class="col l-4 m-4 c-4">
+                            <p class="evaluate--item__img">
+                            <img src="https://hthaostudio.com/wp-content/uploads/2020/07/Thanh-dat-xanh-2.jpg" alt="Ảnh học viên"></p>
+                        </div>
+                        <div class="col l-8 m-8 c-8">
+                            <h4 class="evaluate--item__h4">Nguyễn Văn A</h4>
+                            <p class="evaluate--item__time"><i class="fa fa-calendar"></i>13/04/2021</p>
+                            <p class="evaluate--item__p">
+                                Đây là mô hình đào tạo thực hành nghề phục hình răng trong lòng một Công ty sản xuất răng uy tín, chuyên nghiệpĐây là mô hình đào tạo thực hành nghề phục hình răng trong lòng một Công ty sản xuất răng uy tín, chuyên nghiệpĐây là mô hình đào tạo thực hành nghề phục hình răng trong lòng một Công ty sản xuất răng uy tín, chuyên nghiệp 
+                            </p>  
+                        </div>
+                    </div>
+                </div>
+
+                <div class="evaluate--col col l-12">
+                    <div class=" evaluate--item row">
+                        <div class="col l-4 m-4 c-4">
+                            <p class="evaluate--item__img">
+                            <img src="https://hthaostudio.com/wp-content/uploads/2020/07/Thanh-dat-xanh-2.jpg" alt="Ảnh học viên"></p>
+                        </div>
+                        <div class="col l-8 m-8 c-8">
+                            <h4 class="evaluate--item__h4">Nguyễn Văn A</h4>
+                            <p class="evaluate--item__time"><i class="fa fa-calendar"></i>13/04/2021</p>
+                            <p class="evaluate--item__p">
+                                Đây là mô hình đào tạo thực hành nghề phục hình răng trong lòng một Công ty sản xuất răng uy tín, chuyên nghiệpĐây là mô hình đào tạo thực hành nghề phục hình răng trong lòng một Công ty sản xuất răng uy tín, chuyên nghiệpĐây là mô hình đào tạo thực hành nghề phục hình răng trong lòng một Công ty sản xuất răng uy tín, chuyên nghiệp 
+                            </p>  
+                        </div>
+                    </div>
+                </div>
+
+                <div class="evaluate--col col l-12">
+                    <div class="evaluate--item row">
+                        <div class="col l-4 m-4 c-4">
+                            <p class="evaluate--item__img">
+                            <img src="https://hthaostudio.com/wp-content/uploads/2020/07/Thanh-dat-xanh-2.jpg" alt="Ảnh học viên"></p>
+                        </div>
+                        <div class="col l-8 m-8 c-8">
+                            <h4 class="evaluate--item__h4">Nguyễn Văn A</h4>
+                            <p class="evaluate--item__time"><i class="fa fa-calendar"></i>13/04/2021</p>
+                            <p class="evaluate--item__p">
+                                Đây là mô hình đào tạo thực hành nghề phục hình răng trong lòng một Công ty sản xuất răng uy tín, chuyên nghiệpĐây là mô hình đào tạo thực hành nghề phục hình răng trong lòng một Công ty sản xuất răng uy tín, chuyên nghiệpĐây là mô hình đào tạo thực hành nghề phục hình răng trong lòng một Công ty sản xuất răng uy tín, chuyên nghiệp 
+                            </p>  
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <!-- Đánh giá của học viên end -->
+
+    <!-- Tin tức trong ngành đa khoa start-->
+    <section class="news back">
+        <div class="news--container grid wide">
+            <h1 class="heading">tin tức về nganh nha khoa</h1>
+            <div class="row">
+                <div class="news--left col l-6 m-12">
+                    <div class="news--item">
+                        <a href="" class="news--item__img">
+                            <img src="https://cdn.pixabay.com/photo/2016/09/04/17/46/news-1644696_960_720.png" alt="Tin Tức">
+                        </a>
+                        <div class="news--content">
+                            <a href="" class="news--content__link">CÁCH CHỌN MUA NHÀ CHUNG CƯ HỢP TÚI TIỀN</a> 
+                            <div class="news--content__icon">
+                                <p class="news--icon__time"><i class="fa fa-calendar"></i>12/3/3333</p>
+                                <a href="" class="news--icon__cn"><i class="fa fa-tag"></i>Cẩm nang</a>
+                            </div>
+                            <p class="news--content__para">Những lưu ý khi mua nhà là những điều cần thiết phải chú ý khi chúng ta có đang có kế hoạch tìm mua căn hộ, xây dựng tổ ấm giá đình mình. Bởi mua nhà là một trong những giai đoạn quan trọng nhất trong cuộc đời của nhiều người, vì vậy khi  quyết định xuống tiền mua nhà bạn nên xem xét kĩ lưỡng.Trong quá trình mua nhà, có những  thương vụ có vẻ rất hời, nhưng nếu bên bán lại bị phá sản cận kề thời điểm bán, sẽ có những  bất lợi xung quanh khối tài sản mà bạn và bên mua đã thực hiện quá trình giao dịch, sau đây là những điều lưu ý khi mua nhà được chia sẻ từ Căn hộ Việt</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col l-6 m-12">
+                    <div class="new--right__row row">
+                        <div class="col l-4 m-4 c-4">
+                            <a href="" class="news--right__img"><img src="https://cdn.pixabay.com/photo/2016/09/04/17/46/news-1644696_960_720.png" alt="Ảnh"></a>
+                        </div>
+                        <div class="col l-8 m-8 c-8">
+                            <a href="" class="news--right__link">Cách trang trí</a>
+                            <div class="news--right__icon">
+                                <p class="news--right__time"><i class="fa fa-calendar"></i>12/3/3333</p>
+                                <a href="" class="news--right__cn"><i class="fa fa-tag"></i>Cẩm nang</a>
+                            </div>
+                            <p class="news--right__para">
+                                Những lưu ý khi mua nhà là những điều cần thiết phải chú ý khi chúng ta có đang có kế hoạch tìm mua căn hộ, xây dựng tổ ấm giá đình mình. Bởi mua nhà là một trong những giai đoạn quan trọng nhất trong cuộc đời của nhiều người, vì vậy khi  quyết định xuống tiền mua nhà bạn nên xem xét kĩ lưỡng.Trong quá trình mua nhà, có những  thương vụ có vẻ rất hời, nhưng nếu bên bán lại bị phá sản cận kề thời điểm bán, sẽ có những  bất lợi xung quanh khối tài sản mà bạn và bên mua đã thực hiện quá trình giao dịch, sau đây là những điều lưu ý khi mua nhà được chia sẻ từ Căn hộ Việt.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="new--right__row row">
+                        <div class="col l-4 m-4 c-4">
+                            <a href="" class="news--right__img"><img src="https://cdn.pixabay.com/photo/2016/09/04/17/46/news-1644696_960_720.png" alt="Ảnh"></a>
+                        </div>
+                        <div class="col l-8 m-8 c-8">
+                            <a href="" class="news--right__link">Cách trang trí</a>
+                            <div class="news--right__icon">
+                                <p class="news--right__time"><i class="fa fa-calendar"></i>12/3/3333</p>
+                                <a href="" class="news--right__cn"><i class="fa fa-tag"></i>Cẩm nang</a>
+                            </div>
+                            <p class="news--right__para">
+                                Những lưu ý khi mua nhà là những điều cần thiết phải chú ý khi chúng ta có đang có kế hoạch tìm mua căn hộ, xây dựng tổ ấm giá đình mình. Bởi mua nhà là một trong những giai đoạn quan trọng nhất trong cuộc đời của nhiều người, vì vậy khi  quyết định xuống tiền mua nhà bạn nên xem xét kĩ lưỡng.Trong quá trình mua nhà, có những  thương vụ có vẻ rất hời, nhưng nếu bên bán lại bị phá sản cận kề thời điểm bán, sẽ có những  bất lợi xung quanh khối tài sản mà bạn và bên mua đã thực hiện quá trình giao dịch, sau đây là những điều lưu ý khi mua nhà được chia sẻ từ Căn hộ Việt.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="new--right__row row">
+                        <div class="col l-4 m-4 c-4">
+                            <a href="" class="news--right__img"><img src="https://cdn.pixabay.com/photo/2016/09/04/17/46/news-1644696_960_720.png" alt="Ảnh"></a>
+                        </div>
+                        <div class="col l-8 m-8 c-8">
+                            <a href="" class="news--right__link">Cách trang trí</a>
+                            <div class="news--right__icon">
+                                <p class="news--right__time"><i class="fa fa-calendar"></i>12/3/3333</p>
+                                <a href="" class="news--right__cn"><i class="fa fa-tag"></i>Cẩm nang</a>
+                            </div>
+                            <p class="news--right__para">
+                                Những lưu ý khi mua nhà là những điều cần thiết phải chú ý khi chúng ta có đang có kế hoạch tìm mua căn hộ, xây dựng tổ ấm giá đình mình. Bởi mua nhà là một trong những giai đoạn quan trọng nhất trong cuộc đời của nhiều người, vì vậy khi  quyết định xuống tiền mua nhà bạn nên xem xét kĩ lưỡng.Trong quá trình mua nhà, có những  thương vụ có vẻ rất hời, nhưng nếu bên bán lại bị phá sản cận kề thời điểm bán, sẽ có những  bất lợi xung quanh khối tài sản mà bạn và bên mua đã thực hiện quá trình giao dịch, sau đây là những điều lưu ý khi mua nhà được chia sẻ từ Căn hộ Việt.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="new--right__row row">
+                        <div class="col l-4 m-4 c-4">
+                            <a href="" class="news--right__img"><img src="https://cdn.pixabay.com/photo/2016/09/04/17/46/news-1644696_960_720.png" alt="Ảnh"></a>
+                        </div>
+                        <div class="col l-8 m-8 c-8">
+                            <a href="" class="news--right__link">Cách trang trí</a>
+                            <div class="news--right__icon">
+                                <p class="news--right__time"><i class="fa fa-calendar"></i>12/3/3333</p>
+                                <a href="" class="news--right__cn"><i class="fa fa-tag"></i>Cẩm nang</a>
+                            </div>
+                            <p class="news--right__para">
+                                Những lưu ý khi mua nhà là những điều cần thiết phải chú ý khi chúng ta có đang có kế hoạch tìm mua căn hộ, xây dựng tổ ấm giá đình mình. Bởi mua nhà là một trong những giai đoạn quan trọng nhất trong cuộc đời của nhiều người, vì vậy khi  quyết định xuống tiền mua nhà bạn nên xem xét kĩ lưỡng.Trong quá trình mua nhà, có những  thương vụ có vẻ rất hời, nhưng nếu bên bán lại bị phá sản cận kề thời điểm bán, sẽ có những  bất lợi xung quanh khối tài sản mà bạn và bên mua đã thực hiện quá trình giao dịch, sau đây là những điều lưu ý khi mua nhà được chia sẻ từ Căn hộ Việt.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- Tin tức trong ngành đa khoa end-->
+
+    <!-- Chân trang -->
+    <footer class="footer">
+        <div class="grid wide">
+            <div class="row">
+                <div class="col l-4 m-12 c-12">
+                    <a href="" class="footer--logo">
+                        <img src="images/logo.png" alt="Ảnh logo">
+                    </a>
+                </div>
+                <div class="footer-right col l-8 m-12 c-12">
+                    <div class="row">
+                        <div class="footer-col col l-6 m-6 c-12">
+                            <p class="footer--p">Thông tin liên lạc</p>
+                            <p class="footer--para">HOTLINE SALE SALETECH & MARTECH</p>
+                            <a href="tel://" class="footer--link">00000000</a>
+                        </div>
+                        <div class="col l-6 m-6 c-12">
+                            <p class="footer--p">Chính sách</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
 
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" referrerpolicy="no-referrer"></script>
-
-    <!-- slder -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js" integrity="sha512-HGOnQO9+SP1V92SrtZfjqxxtLmVzqZpjFFekvzZVWoiASSQgSr4cw9Kqd2+l8Llp4Gm0G8GIFJ4ddwZilcdb8A==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-
-    <!-- slider end -->
+    <!-- slick slider -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
     <script src="js/script.js"></script>
+    <script>
+    
+    </script>
 </body>
-
 </html>
